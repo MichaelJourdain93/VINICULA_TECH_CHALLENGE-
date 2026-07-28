@@ -6,6 +6,8 @@
 
 🔗 **[Dashboard ao vivo (Power BI)](https://app.powerbi.com/view?r=eyJrIjoiZTdlZjhhZWQtYzY1ZS00NGJiLWI0NjAtMWNiYzI5YWM5MDMyIiwidCI6ImFkYWMzNzYyLWYzMWQtNDliNS1iYWI1LWY3NjcxNzZmZjQyNSJ9)**
 
+##
+![Autor](https://img.shields.io/badge/Autor-Michael%20Jourdain%20Gbedjinou-lightgrey?style=for-the-badge)
 ## 🎯 Problema de negócio
 
 Simulação de consultoria em Data Analytics para a **Vinícola Ouro Verde** (Rio Grande do Sul), que exporta vinhos, espumantes, sucos de uva e uvas frescas para o mundo todo. A área de dados, recém-criada na empresa, foi acionada para construir os relatórios iniciais de uma reunião com investidores e acionistas, explicando:
@@ -61,10 +63,6 @@ Agregações por produto (uvas frescas, vinho de mesa, espumantes, suco de uva),
 - [ ] Recuperar e versionar o notebook Python usado para as análises por continente (citado no relatório como "Notebook de análise desenvolvido pela equipe de tecnologia", ainda não commitado)
 - [ ] Adicionar a base de dados de exportação (ou instruções de acesso) usada como fonte
 - [ ] Automatizar a atualização do dashboard a partir de fonte de dados live em vez de extração pontual
-
-## 👥 Autoria
-
-[Michael Jourdain Gbedjinou](https://github.com/MichaelJourdain93) — Centro Universitário FIAP.
 
 ## 📁 Estrutura do projeto
 
