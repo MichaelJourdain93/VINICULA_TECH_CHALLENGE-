@@ -1,3 +1,88 @@
+<details name="lang-toggle">
+<summary><b>🇺🇸 English</b></summary>
+
+# 🍷 Vinícola Ouro Verde International Performance — Brazilian Wine Exports
+
+![PowerBI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+🔗 **[Live dashboard (Power BI)](https://app.powerbi.com/view?r=eyJrIjoiZTdlZjhhZWQtYzY1ZS00NGJiLWI0NjAtMWNiYzI5YWM5MDMyIiwidCI6ImFkYWMzNzYyLWYzMWQtNDliNS1iYWI1LWY3NjcxNzZmZjQyNSJ9)**
+
+##
+![Author](https://img.shields.io/badge/Author-Michael%20Jourdain%20Gbedjinou-lightgrey?style=for-the-badge)
+## 🎯 Business problem
+
+Data Analytics consulting simulation for **Vinícola Ouro Verde** (Rio Grande do Sul, Brazil), which exports wine, sparkling wine, grape juice, and fresh grapes worldwide. The company's newly created data team was asked to build the initial reports for a meeting with investors and shareholders, explaining:
+
+- Volume and value exported by product, country, and continent.
+- External factors influencing exports (exchange rate, economic crises, climate, changes in consumption habits).
+
+> Group project — Centro Universitário FIAP, 2024.
+
+## 🏗️ Architecture / Data flow
+
+```mermaid
+flowchart LR
+    A[Export data\npartner winery] --> B[Analysis notebook\naggregations by continent/product]
+    A --> C[Power BI Dashboard\nreports/dashboard_ouro_verde.pbix]
+    B --> D[Final report\ndocs/analise-vinicula-ouro-verde.pdf]
+    C --> D
+```
+
+## ⚙️ Execution phases
+
+### 1. Ingestion
+Export data (origin country, destination country, liters exported, value in US$) provided by a partner winery, covering the **2007 to 2022** period.
+
+### 2. Transformation and analysis
+Aggregations by product (fresh grapes, table wine, sparkling wine, grape juice), by destination country, and by continent. Part of the analysis (e.g. distribution by continent) was done in a Python notebook by the technology team — that notebook is not yet versioned in this repository (see Next steps).
+
+### 3. Visualization
+Interactive **Power BI dashboard** with a distribution map by country, importer rankings, and time series by product — used as the basis for the final report delivered to investors.
+
+### 4. Report
+`docs/analise-vinicula-ouro-verde.pdf` consolidates the full analysis: overview, exports by continent, by product (table wine, sparkling wine, grape juice), and conclusion with recommendations.
+
+## 🛠️ Tech stack
+
+| Layer | Technology | Why |
+|---|---|---|
+| BI / Dashboard | **Power BI** | Interactive storytelling for investor presentation |
+| Complementary analysis | **Python** (pandas/matplotlib, via the team's notebook) | Distribution-by-continent charts cited in the report |
+| Documentation | PDF | Consolidated final report |
+
+## 📈 Results / Insights
+
+- **US$1.9 billion** exported in total between 2007-2022, with **fresh grapes ~85%** of the exported value (raw material used by other countries for their own wine production).
+- **Table wine** was the 2nd most exported product (9.23% of volume, 59% of volume among derived products), peaking at US$22.7 million in 2013.
+- **Top importers by value:** Netherlands, United Kingdom, and United States (fresh grapes); Paraguay, Russia, and the US (table wine); the US leads sparkling wine by a wide margin.
+- **Asia, the Americas, and Europe** account for most exports, with Japan standing out (largest grape juice buyer) and China/South Korea (a rising wine market via the middle class).
+- **2021 was a record year**: 935,000 liters of sparkling wine exported and 303 international medals for Brazilian sparkling wines.
+- External factors identified as determinants: exchange rate (a weaker real increases competitiveness), climate (quality harvests vs. frost/drought), economic crises (2008, 2014-2016), and changing consumption habits during the pandemic (increased domestic consumption of alcoholic beverages).
+
+## 🔭 Next steps
+
+- [ ] Recover and version the Python notebook used for the continent-level analysis (cited in the report as "analysis notebook developed by the technology team", not yet committed)
+- [ ] Add the export dataset (or access instructions) used as the source
+- [ ] Automate dashboard updates from a live data source instead of a one-off extraction
+
+## 📁 Project structure
+
+```
+vinicola-export-analytics/
+├── README.md
+├── docs/
+│   └── analise-vinicula-ouro-verde.pdf
+└── reports/
+    └── dashboard_ouro_verde.pbix
+```
+
+</details>
+
+<details open name="lang-toggle">
+<summary><b>🇧🇷 Português</b></summary>
+
 # 🍷 Desempenho Internacional da Vinícola Ouro Verde — Exportações de Vinhos Brasileiros
 
 ![PowerBI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black)
@@ -74,3 +159,5 @@ VINICULA_TECH_CHALLENGE-/
 └── reports/
     └── dashboard_ouro_verde.pbix
 ```
+
+</details>
