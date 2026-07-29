@@ -61,12 +61,6 @@ Interactive **Power BI dashboard** with a distribution map by country, importer 
 - **2021 was a record year**: 935,000 liters of sparkling wine exported and 303 international medals for Brazilian sparkling wines.
 - External factors identified as determinants: exchange rate (a weaker real increases competitiveness), climate (quality harvests vs. frost/drought), economic crises (2008, 2014-2016), and changing consumption habits during the pandemic (increased domestic consumption of alcoholic beverages).
 
-## 🔭 Next steps
-
-- [ ] Recover and version the Python notebook used for the continent-level analysis (cited in the report as "analysis notebook developed by the technology team", not yet committed)
-- [ ] Add the export dataset (or access instructions) used as the source
-- [ ] Automate dashboard updates from a live data source instead of a one-off extraction
-
 ## 📁 Project structure
 
 ```
