@@ -143,11 +143,6 @@ Agregações por produto (uvas frescas, vinho de mesa, espumantes, suco de uva),
 - **2021 foi ano recorde**: 935 mil litros de espumante exportados e 303 medalhas internacionais para espumantes brasileiros.
 - Fatores externos identificados como determinantes: câmbio (desvalorização do real aumenta competitividade), clima (safras de qualidade vs. geadas/secas), crises econômicas (2008, 2014-2016) e mudança de hábito de consumo durante a pandemia (aumento do consumo doméstico de bebidas alcoólicas).
 
-## 🔭 Próximos passos
-
-- [ ] Recuperar e versionar o notebook Python usado para as análises por continente (citado no relatório como "Notebook de análise desenvolvido pela equipe de tecnologia", ainda não commitado)
-- [ ] Adicionar a base de dados de exportação (ou instruções de acesso) usada como fonte
-- [ ] Automatizar a atualização do dashboard a partir de fonte de dados live em vez de extração pontual
 
 ## 📁 Estrutura do projeto
 
